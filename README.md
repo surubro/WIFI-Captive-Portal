@@ -28,7 +28,7 @@ The built-in LED will blink 5 times when a password is posted.
 
 # Showcase coming soon
 
-<a target="_blank" href="#"><img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/thumbnail.png"></a>
+<a target="_blank" href="#"><img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/thumbnail.jpeg"></a>
 
 # Screenshots
 

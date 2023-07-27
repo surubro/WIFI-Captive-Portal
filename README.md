@@ -59,7 +59,7 @@ The built-in LED will blink 5 times when a password is posted.
 
 1. Download <a href="https://github.com/nodemcu/nodemcu-flasher"><b>ESP8266 Flasher</b></a>.
 
-2. Download the <b><a href="https://github.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/releases/download/v1.2.0/release.bin">release.bin</b></a> file. (soon)
+2. Download the <b><a href="https://github.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/releases/download/v2.0/release.bin">release.bin</b></a> file.
 
 3. Open the ESP8266 Flasher and select the Node MCU port
 

@@ -92,8 +92,14 @@ The built-in LED will blink 5 times when a password is posted.
 6. Upload the code into your board.
 7. You are done!
 
+## Ethical purposes only!
+
+Again, I must emphasize that using this code or any similar technique for unauthorized access, phishing, or any illegal activities is strictly prohibited and against the law. It is essential to respect others' privacy and adhere to ethical standards while using technology. If you're interested in learning about network security, ethical hacking, or cybersecurity, I encourage you to pursue formal education or ethical hacking certifications through legitimate channels. Always use your skills and knowledge responsibly and lawfully.
+
 ## ❤️ Sponsoring
 If you like or rely on the work I do, please consider [sponsoring me](https://github.com/sponsors/nocerainfosec). I do open source all my projects, it would be really great if I could do more of it.
+
+
 
 
 ## Other Projects you may like from the Original Author:

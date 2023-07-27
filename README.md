@@ -55,9 +55,6 @@ The built-in LED will blink 5 times when a password is posted.
   </tr>
 </table>
 
-Support me , if you like the work i do!
-
-
 # Installation (ESP8266 Flasher - Easy way)
 
 1. Download <a href="https://github.com/nodemcu/nodemcu-flasher"><b>ESP8266 Flasher</b></a>.
@@ -86,6 +83,9 @@ Support me , if you like the work i do!
 5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
 6. Upload the code into your board.
 7. You are done!
+
+## ❤️ Sponsoring
+If you like or rely on the work I do, please consider [sponsoring me](https://github.com/sponsors/nocerainfosec). I do open source all my projects, it would be really great if I could do more of it.
 
 
 ## Other Projects you may like from the Original Author:

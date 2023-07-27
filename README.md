@@ -82,7 +82,7 @@ The built-in LED will blink 5 times when a password is posted.
 2. Go to "Tools -> Board -> Boards Manager", search "esp8266" and install esp8266
 3. Go to "Tools -> Board" and select you board"
 4. Download and open the sketch "<a href="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/WiFi_Captive_Portal.ino"><b>WiFi_Captive_Portal.ino</b></a>"
-5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
+5. You can optionally change all things like SSID name and texts of the page like title, subtitle, text body, Password of the protected page, style, you are the boss!
 6. Upload the code into your board.
 7. You are done!
 

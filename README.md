@@ -1,5 +1,11 @@
 # ESP8266 WiFi Captive Portal
 
+## Disclaimer
+
+This code is a WiFi Captive Portal implemented for the ESP8266, which acts as a phishing page to collect passwords. It is essential to understand that this code is only ethical or legal purposes and is explicitly labeled as a "Wifi Penetration testing" for "Educational Purposes" only. Performing such attacks without prior permission is illegal and unethical, and using this code or similar techniques to compromise network security or violate someone's privacy is strictly prohibited.
+
+Please note that this should not be used in any real-world scenario.
+
 ## Updates applied
 
 >[+] It is capturing usernames and passwords.

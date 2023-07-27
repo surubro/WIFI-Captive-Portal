@@ -34,7 +34,7 @@ The built-in LED will blink 5 times when a password is posted.
 
 # Showcase
 
-<a target="_blank" href="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.gif"><img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.gif"></a>
+<img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.gif"></a>
 
 # Screenshots
 
@@ -63,9 +63,9 @@ The built-in LED will blink 5 times when a password is posted.
 
 # Installation (ESP8266 Flasher - Easy way)
 
-1. Download <a href="https://github.com/nodemcu/nodemcu-flasher"><b>ESP8266 Flasher</b></a>.
+1. [Download](https://github.com/nodemcu/nodemcu-flasher) ESP8266 Flasher.
 
-2. Download the <b><a href="https://github.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/releases/download/v2.0/release.bin">release.bin</b></a> file.
+2. [Download](https://github.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/releases/download/v2.0/release.bin) release.bin file.
 
 3. Open the ESP8266 Flasher and select config tab and select the .bin file you've just downloaded.
 
@@ -83,14 +83,17 @@ The built-in LED will blink 5 times when a password is posted.
 
 # Installation (Arduino IDE)
 
-1. Open your <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> and go to "File -> Preferences -> Boards Manager URLs" and paste the following link:
+1. [Download](https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/WiFi_Captive_Portal.ino) and open the sketch using [Arduino IDE](https://www.arduino.cc/en/main/software)
+2. Go to "File -> Preferences -> Boards Manager URLs" and paste the following link:
 ``http://arduino.esp8266.com/stable/package_esp8266com_index.json``
 2. Go to "Tools -> Board -> Boards Manager", search "esp8266" and install esp8266
 3. Go to "Tools -> Board" and select you board"
-4. Download and open the sketch "<a href="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/WiFi_Captive_Portal.ino"><b>WiFi_Captive_Portal.ino</b></a>"
-5. You can optionally change all things like SSID name and texts of the page like title, subtitle, text body, Password of the protected page, style, you are the boss!
-6. Upload the code into your board.
-7. You are done!
+
+<img width="80%" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/MnslKyFqwb.png">
+
+4. You can optionally change all things like SSID name and texts of the page like title, subtitle, text body, Password of the protected page, style, you are the boss!
+5. Upload the code into your board.
+6. You are done!
 
 ## Ethical purposes only!
 

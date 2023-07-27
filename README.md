@@ -61,17 +61,19 @@ The built-in LED will blink 5 times when a password is posted.
 
 2. Download the <b><a href="https://github.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/releases/download/v2.0/release.bin">release.bin</b></a> file.
 
-3. Open the ESP8266 Flasher and select the Node MCU port
+3. Open the ESP8266 Flasher and select config tab and select the .bin file you've just downloaded.
 
-<img width="80%" src="#">
+<img width="80%" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/ESP8266Flasher_lDlqjrUe8F.png">
 
-4. Then, go to the config tab and select the .bin file you've just downloaded.
+4. Then, head back to the Operation tabs and select the Node MCU port and press "Flash".
 
-<img width="80%" src="#">
+<img width="80%" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/ESP8266Flasher_76YPePmTMk.png">
 
-5. Finally, go back to the first tab and press "Flash"
+5. Wait until the process finishes.
 
-6. Your Node MCU is ready!
+  <img width="80%" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/ESP8266Flasher_djCGuSmTPI.png">
+
+7. Your Node MCU is ready!
 
 # Installation (Arduino IDE)
 

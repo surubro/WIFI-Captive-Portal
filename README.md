@@ -34,21 +34,24 @@ The built-in LED will blink 5 times when a password is posted.
 
 <table>
   <tr>
-    <th>172.0.0.1/index</th>
-    <th>172.0.0.1/post</th> 
-    <th>172.0.0.1/pass</th>
-    <th>172.0.0.1/ssid</th>
+    <th>172.0.0.1/index         </th>
+    <th>172.0.0.1/post          </th> 
+    <th>172.0.0.1/pass          </th>
+    <th>172.0.0.1/pass?password=</th>
+    <th>172.0.0.1/ssid          </th>
   </tr>
   <tr>
     <td>This is the main page. Here the user will write his username and password and send it.</td>
     <td>This is the post page. The user will be redirected here after posting their credentials.</td>
+    <td>This is the protection applied to the pass page, so noone else can snik into it.</td>
     <td>This is where the attacker can retrieve all the passwords that has been posted.</td>
     <td>Here the attacker can change the SSID name of the Access Point on the go.</td>
   <tr>
     <td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/1_Index_2.png" title="index"></td>
     <td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/2_Post.png" title="post"></td>
     <td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/3_Pass.png" title="pass"></td>
-<td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/4_ssid.png" title="ssid"></td>
+    <td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/3.1_pass.png" title="pass"></td>
+    <td><img width="200px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/4_ssid.png" title="ssid"></td>
   </tr>
 </table>
 

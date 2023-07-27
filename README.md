@@ -26,9 +26,9 @@ The built-in LED will blink 5 times when a password is posted.
 
 <b>Note:</b> If you want to see the stored passwords go to "**172.0.0.1**<a>/pass</a>". For changing the SSID, go to "**172.0.0.1**<a>/ssid</a>"
 
-# Showcase coming soon
+# Showcase
 
-<a target="_blank" href="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.mp4"><img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/thumbnail.jpeg"></a>
+<a target="_blank" href="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.gif"><img width="700px" src="https://raw.githubusercontent.com/nocerainfosec/ESP8266-WIFI-Captive-Portal/master/src/demo-wifi-captive-portal.gif"></a>
 
 # Screenshots
 

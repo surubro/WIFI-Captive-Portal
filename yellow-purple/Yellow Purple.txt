@@ -1,0 +1,75 @@
+
+https://www.youtube.com/yellowpurple
+
+
+
+*****  Deauther *****************
+
+Button UP       GPI0 14 / D5
+Button DOWN  GPI0 12 / D6
+Button OK  GPIO 13 / D7
+
+OLED:
+SCL = D1 / GPIO 5
+SDA = D2 / GPIO 4
+
+NeoPixel = D4 /GPIO 2
+
+SSID = Yellow Purple
+Password : deauther
+
+IP Address: 192.168.4.2
+
+******************************
+
+
+
+*****  Evil Twin **************
+
+OLED:
+SCL = D1 / GPIO 5
+SDA = D2 / GPIO 4
+
+
+SSID = EVIL TWIN
+Password : YellowPurple
+
+IP Address: 192.168.4.1
+
+******************************
+
+
+
+******************************
+
+🛒Aliexpress Buy:
+Wemos D1 Mini: https://s.click.aliexpress.com/e/_oB9JJbp
+Wemos D1 Mini: https://s.click.aliexpress.com/e/_omygH55
+ESP8266 Nodemcu: https://s.click.aliexpress.com/e/_oCL0eKn
+ESP8266 Nodemcu: https://s.click.aliexpress.com/e/_oplI6f5
+WS2812 RGB LED Breakout module: https://s.click.aliexpress.com/e/_onefdyR
+OLED 0.96: https://s.click.aliexpress.com/e/_onNwmNH
+OLED 1.3: https://s.click.aliexpress.com/e/_oBLgYb5
+Push Button Switch: https://s.click.aliexpress.com/e/_onljxCf
+Breadboard Jumper Cable: https://s.click.aliexpress.com/e/_omlbjQL
+8 Color AWG30 Cable: https://s.click.aliexpress.com/e/_onIQohU
+
+🛒Amazon Buy: 
+Wemos D1 Mini: https://amzn.to/42IArsQ
+Wemos D1 Mini: https://amzn.to/44CxHzA
+ESP8266 Nodemcu: https://amzn.to/4cHM47L
+ESP8266 Nodemcu: https://amzn.to/42IAmp2
+WS2812 RGB LED Breakout module: https://amzn.to/3Rr4fVF
+OLED 0.96: https://amzn.to/3Y6ABsw
+OLED 1.3: https://amzn.to/4lGHYkt
+Push Button Switch: https://amzn.to/44Coasd
+Breadboard Jumper Cable: https://amzn.to/4d1IRjP
+8 Color AWG30 Cable: https://amzn.to/3Z6bSVC
+
+Amazon shop: https://c8ke.com/yellowpurple
+
+
+******************************
+
+
+

